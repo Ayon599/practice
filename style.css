@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  width: 1440px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9faff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.nav-button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #eef1fd;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.cta-btn {
+  background: #4f46e5;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.video-section {
+  display: flex;
+  padding: 60px 40px;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.video-section .left {
+  max-width: 400px;
+}
+.video-btn {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  background: #dbeafe;
+  padding: 40px 20px;
+  text-align: center;
+}
+.stats .stat-item h3 {
+  font-size: 2rem;
+  color: #1e3a8a;
+}
+.testimonials {
+  padding: 60px 20px;
+  background: #f8fafc;
+  text-align: center;
+}
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  max-width: 300px;
+}
+.focus {
+  text-align: center;
+  padding: 60px 20px;
+}
+.contact {
+  background: #eef2ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.contact form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact button {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+  border-top: 1px solid #e2e8f0;
+}
+.right img{
+    border-radius: 50px;
+}
+.my:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+.card p{
+  display: inline-block;
+}
