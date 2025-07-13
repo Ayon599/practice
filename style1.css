@@ -32,7 +32,7 @@ nav{
 .sta{
     margin: 38px auto;
 }
-h2{
+.logo{
     margin: 20px;
     color: #4E47FF;
     font-weight: bold;
@@ -41,3 +41,142 @@ a{
     color: white;
     text-decoration: none;
 }
+.image{
+    width: 1140px;
+    height: 328px;
+    display: flex;
+    justify-content: space-around;
+    margin:0 auto;
+    padding-top: 116px;
+    align-items: center;
+}
+img{
+    border-radius: 50px;
+}
+.titel{
+    width: 517px;
+    height: 203px;
+}
+.con{
+    margin: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+p{
+    color:#7b7a7e;
+    font-size: 24px;
+    margin-left:25px;
+    margin-bottom: 27px;
+}
+.launch{
+    width: 229px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #4E47FF;
+    margin-left:25px;
+}
+.container{
+    width: 1140px;
+    height: 306px;
+    background-color: #c0bef8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 116px auto;
+    align-items: center;
+    border-radius: 25px;
+}
+.joined{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+
+}
+.count{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.kay{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 50px;
+}
+.active{
+    color: #7b7a7e;
+}
+.maincard{
+    width: 1140px;
+    height: 306px;
+    background-color: #c0bef8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 116px auto;
+    align-items: center;
+    border-radius: 25px;
+}
+.head{
+     width: 1140px;
+    height: 306px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+.card{
+    width: 1140px;
+    height: 243px;
+    background-color: rgb(0, 123, 231);
+    display: flex;
+    justify-content:space-between;
+    /* flex-direction: row; */
+    align-items: center;
+    border: 2px solid red;
+}
+.card1{
+    width: 380px;
+    height: 43px;
+    background-color: aliceblue;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* .card2{
+    width: 380px;
+    height: 43px;
+    background-color: aliceblue;
+    border: 2px solid red;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     position: absolute;
+    top: 150px;
+    left: 150px;
+    right: 150px;
+}
+.card3{
+    width: 380px;
+    height: 43px;
+    background-color: aliceblue;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    right: 500px;
+} */
