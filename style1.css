@@ -11,9 +11,11 @@
 }
 nav{
     width: 1140px;
-    height: 151px;
+    height: 90px;
+    background-color: rgb(212, 211, 211);
     display: flex;
     justify-content: space-between;
+    margin-bottom: 158px;
 }
 .sign{
     width: 132px;
@@ -95,7 +97,6 @@ p{
     text-align: center;
     font-weight: bold;
     font-size: 38px;
-
 }
 .count{
     margin-top: 40px;
@@ -134,40 +135,42 @@ p{
     font-weight: bold;
     font-size: 38px;
 }
+
 .card{
     width: 1140px;
-    height: 243px;
-    background-color: rgb(0, 123, 231);
+    height: 342px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    border: 2px solid red;
+    gap: 20px;
 }
 .card1{
     width: 380px;
-    height: 43px;
+    height: 243px;
     background-color: aliceblue;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
-    
+    gap: 20px;
+     align-items: center;
+    flex-wrap: wrap;
 }
  .card2{
     width: 380px;
-    height: 43px;
+    height: 243px;
     background-color: aliceblue;
-    border: 2px solid red;
-    position: absolute;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 20px;
+     align-items: center;
+    flex-wrap: wrap;
 }
  .card3{
     width: 380px;
-    height: 43px;
+    height: 243px;
     background-color: aliceblue;
-    border: 2px solid red;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
 }
